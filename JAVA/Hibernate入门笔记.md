@@ -243,7 +243,7 @@ Exception in thread "main" org.hibernate.MappingException: Unknown entity: com.w
 `<mapping resource="/LearnHibernate/src/com/whong/cust_customer.hbm.xml"/>`
 但是这个地方需要去掉src前面的路径
 因此正确的路径是
-`<mapping resource="src/com/whong/cust_customer.hbm.xml"/>`
+`<mapping resource="com/whong/cust_customer.hbm.xml"/>`
 
 再次运行的到正确的结果
 并打印如下的一些日志记录
