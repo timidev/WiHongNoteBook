@@ -156,6 +156,28 @@ def power(x, n=2):
 
 列表生成式
 ![](https://ws2.sinaimg.cn/large/006tNc79gy1fqmlkogwc9j31cq24awsu.jpg)
+生成器
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fqmodivw3cj31ce5zq7wh.jpg)
+迭代器
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fqmojpqekvj31cg2iyh2y.jpg)
+像数据类型集合可以用for in这样迭代出数据但是不能用next一直获取数据，所以他是可迭代的，他有这个迭代的特性，但是如果是generator他能一直通过next获取数据出来，所以他是迭代器
+
+### 高阶函数特性
+
+-------
+面向函数式编程
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fqmor6tdyhj31cm2ly4dz.jpg)
+map/reduce
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fqmpnwsj9oj31as492e3w.jpg)
+filter
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fqmpnwsj9oj31as492e3w.jpg)
+sort
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fqmq6c6ne0j31as2iwwv8.jpg)
+返回函数
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fqmqaddvwnj31b24ci1gt.jpg)
+匿名函数
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fqmqd4tsvwj31as0zqjy4.jpg)
+
 
 
 
