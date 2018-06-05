@@ -55,6 +55,12 @@ public class Bean3Factory {
     }
 }
 ```
+### 2.Spring分配置文件开发
+2.1 创建工厂的时候加载多个配置文件
+`        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml","applicationContext2.xml");
+`
+2.2 在一个配置文件中包含另外一个配置文件
+`<import resource="applicationContext2.xml"></import>`
 
 
 
